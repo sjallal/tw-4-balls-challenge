@@ -4,6 +4,7 @@ public class TryProcessing extends PApplet {
 
     public static final int HEIGHT = 480;
     public static final int WIDTH = 640;
+    public static final int DIAMETER = 10;
     int ball1_x_pos = 0;
     int ball2_x_pos = 0;
     int ball3_x_pos = 0;
@@ -45,6 +46,6 @@ public class TryProcessing extends PApplet {
     }
 
     private void drawCircle(int ball_x_pos, float ball_y_pos) {
-        ellipse(ball_x_pos, ball_y_pos, 10, 10);
+        ellipse(ball_x_pos, ball_y_pos, DIAMETER, DIAMETER);
     }
 }
